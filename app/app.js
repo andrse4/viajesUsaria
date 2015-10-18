@@ -24,6 +24,11 @@ config( [ '$stateProvider', '$urlRouterProvider', function( $stateProvider, $url
     url: '/home',
     templateUrl: 'states/home/homeView.html',
     controller: 'homeController'
+  }).
+  state('dashboard.tripPlans', {
+    url: '/trip-plans',
+    templateUrl: 'states/tripPlans/tripPlansView.html',
+    controller: 'tripPlansController'
   });
 
 } ] );
