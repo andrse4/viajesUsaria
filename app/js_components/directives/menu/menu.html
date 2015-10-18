@@ -1,0 +1,34 @@
+<md-toolbar class="md-theme-light add-shadow" style="position: fixed; right: 0; top: 0; z-index: 21">
+  <div class="md-toolbar-tools">
+    <div flex="25" layout="row" layout-align="center center">
+      <md-button ui-sref="dashboard.record">
+        Gastos
+      </md-button>
+    </div>
+    <div flex="25" layout="row" layout-align="center center">
+      <md-button ui-sref="dashboard.record">
+        Viajes
+      </md-button>
+    </div>
+    <div flex="25" layout="row" layout-align="center center">
+      <md-button ui-sref="dashboard.record">
+        Viajes
+      </md-button>
+    </div>
+    <div flex="25" layout="row" layout-align="center center">
+      <md-menu >
+        <md-button ng-click="$mdOpenMenu( $event )">
+          fabritzio.villegas@usaria.mx
+        </md-button>
+        <md-menu-content>
+          <md-menu-item>
+            <md-button ng-click="vm.showModal( $event )">Cambiar contraseña</md-button>
+          </md-menu-item>
+          <md-menu-item>
+            <md-button ng-click="vm.logout()">Salir</md-button>
+          </md-menu-item>
+        </md-menu-content>
+      </md-menu>
+    </div>
+  </div>
+</md-toolbar>

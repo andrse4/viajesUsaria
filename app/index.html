@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="viajesUsaria">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Viajes Usaria</title>
+		<!-- STYLES-->
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/angular-material/angular-material.min.css">
+	</head>
+	<body>
+		<div ui-view></div>
+		<!-- ANGULAR -->
+		<script src="../bower_components/angular/angular.min.js"></script>
+		<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+		<script src="../bower_components/angular-aria/angular-aria.min.js"></script>
+		<script src="../bower_components/angular-material/angular-material.min.js"></script>
+		<!-- CONFIG -->
+	  <script src="app.js"></script>
+    <!-- DIRECTIVES -->
+		<script src="./js_components/directives/menu/menu.js"></script>
+
+		<!-- FACTORIES and SERVICES -->
+		<!-- CONTROLLERS -->
+		<script src="./states/example/exampleController.js"></script>
+
+		<script src="./states/dashboard/dashboardModel.js"></script>
+		<script src="./states/dashboard/dashboardController.js"></script>
+
+		<script src="./states/home/homeModel.js"></script>
+		<script src="./states/home/homeController.js"></script>
+
+
+	</body>
+</html>

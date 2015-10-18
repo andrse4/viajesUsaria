@@ -1,0 +1,16 @@
+{
+  "name": "viajesUsaria",
+  "description": "Segunda aplicacion de intranet para Usaria",
+  "author": "Fabritzio Villegas",
+  "contributors": {},
+  "dependencies": {
+    "angular": ">=1.4.0",
+    "angular-ui-router": ">=0.2.11",
+    "angular-material": "~0.11.4"
+  },
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FabVillegas/viajesUsaria"
+  }
+}
